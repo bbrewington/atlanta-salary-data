@@ -59,4 +59,4 @@ atl_salary_data <-
   atl_salary_data %>% 
   mutate(age = as.integer(age), annual.salary = as.numeric(annual.salary))
 
-write_csv(atl_salary_data, "atl_salary_data_2016.csv")
+write_csv(atl_salary_data, "atl_salary_data_2015.csv")
